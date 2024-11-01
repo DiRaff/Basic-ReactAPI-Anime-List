@@ -1,0 +1,87 @@
+
+
+/* Gaya untuk kontainer utama */
+.detail-container {
+    max-width: 2000px; /* Maksimal lebar kontainer */
+    margin: 0 auto; /* Pusatkan kontainer */
+    padding: 20px; /* Beri padding */
+    background-color: #f9f9f9; /* Warna latar belakang */
+    border-radius: 8px; /* Sudut melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan kotak */
+}
+
+/* Gaya untuk judul detail */
+.detail-title {
+    font-size: 2em; /* Ukuran font judul */
+    color: #333; /* Warna judul */
+    margin-bottom: 15px; /* Margin bawah */
+    text-align: center; /* Pusatkan teks */
+}
+
+/* Gaya untuk konten detail yang mengandung gambar dan informasi */
+.detail-content {
+    display: flex; /* Flexbox untuk konten detail */
+    gap: 20px; /* Jarak antar elemen */
+    align-items: flex-start; /* Rata atas */
+}
+
+/* Gaya untuk gambar detail */
+.detail-image {
+    width: 300px; /* Lebar gambar */
+    height: auto; /* Tinggi otomatis */
+    border-radius: 8px; /* Sudut melengkung pada gambar */
+    object-fit: cover; /* Sesuaikan gambar ke dalam kotak */
+}
+
+/* Gaya untuk informasi detail */
+.detail-info {
+    flex: 1; /* Elemen ini mengambil ruang yang tersisa */
+    display: flex; /* Flexbox untuk info detail */
+    gap: 20px; /* Jarak antar kolom */
+}
+
+/* Kolom dalam informasi detail */
+.column {
+    flex: 1; /* Kolom mengambil ruang yang sama */
+    display: flex; /* Mengatur kolom dengan flexbox */
+    flex-direction: column; /* Menyusun item dalam kolom */
+}
+
+/* Gaya untuk paragraf dalam informasi detail */
+.detail-info p {
+    font-size: 1em; /* Ukuran font untuk paragraf */
+    color: #555; /* Warna paragraf */
+    line-height: 1.6; /* Jarak antar baris */
+    margin: 5px 0; /* Margin atas dan bawah */
+}
+
+/* Gaya untuk teks tebal dalam informasi detail */
+.detail-info strong {
+    color: #333; /* Warna untuk teks tebal */
+    font-weight: bold; /* Teks tebal */
+}
+
+/* Gaya untuk tombol kembali */
+.back-button {
+    background-color: #333; /* Warna tombol */
+    color: white; /* Warna teks tombol */
+    padding: 10px 20px; /* Padding tombol */
+    border: none; /* Tanpa border */
+    border-radius: 5px; /* Sudut melengkung */
+    cursor: pointer; /* Kursor pointer saat hover */
+    margin-bottom: 20px; /* Margin bawah */
+    font-size: 1em; /* Ukuran font tombol */
+}
+
+/* Gaya saat hover pada tombol kembali */
+.back-button:hover {
+    background-color: #0056b3; /* Warna saat hover */
+}
+
+/* Gaya untuk sinopsis */
+.synopsis {
+    margin: 20px 0; /* Margin untuk sinopsis */
+    font-size: 1em; /* Ukuran font sinopsis */
+    color: #555; /* Warna sinopsis */
+    line-height: 1.6; /* Jarak antar baris */
+}
